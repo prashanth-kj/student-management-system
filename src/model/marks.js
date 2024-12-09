@@ -9,12 +9,10 @@ const marksschema=new mongoose.Schema({
       student:{
          type:mongoose.Schema.Types.ObjectId,
          ref:"students",
-         required:true
       },
       subject:{
         type:mongoose.Schema.Types.ObjectId,
         ref:"subjects",
-        required:true
       }
 },{
     collection:'marks',

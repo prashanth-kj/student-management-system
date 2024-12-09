@@ -2,8 +2,12 @@ import Marksmodel from "../model/marks.js";
 
 const createMarks=async(req,res)=>{
      try {
-        
+        let studentId = req.params.studentid;
+        let subjectId = req.params.subjectid;
+
         let marks= new Marksmodel(req.body)
+         marks.student=studentId
+         marks.subject=studentId
         await marks.save()
         res.status(201).json({
             message:" marks created sucessfully",
