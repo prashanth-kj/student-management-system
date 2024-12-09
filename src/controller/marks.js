@@ -7,7 +7,7 @@ const createMarks=async(req,res)=>{
 
         let marks= new Marksmodel(req.body)
          marks.student=studentId
-         marks.subject=studentId
+         marks.subject=subjectId
         await marks.save()
         res.status(201).json({
             message:" marks created sucessfully",
