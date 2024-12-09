@@ -45,7 +45,8 @@ Report Card Routes:
 GET /reportcard/:id - Generate a report card for a specific student.
 
 Postman Collection
-You can test all the API endpoints using this Postman Collection.
+
+You can test all the API endpoints using this Postman Collection.https://documenter.getpostman.com/view/27740952/2sAYBd88BX
 
 
 
