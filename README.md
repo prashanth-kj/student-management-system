@@ -47,32 +47,5 @@ GET /reportcard/:id - Generate a report card for a specific student.
 Postman Collection
 You can test all the API endpoints using this Postman Collection.
 
-Project Structure
-
-StudentManagementSystem/
-
-├── models/
-│   ├── student.js
-│   ├── subject.js
-│   ├── marks.js
-│   └── report.js
-
-├── routes/
-│   ├── studentRoutes.js
-│   ├── subjectRoutes.js
-│   ├── marksRoutes.js
-│   └── reportRoutes.js
-
-├── controllers/
-│   ├── studentController.js
-│   ├── subjectController.js
-│   ├── marksController.js
-│   └── reportController.js
-
-├── middleware/
-│   └── auth.js
-
-├── app.js
-└── package.json
 
 
